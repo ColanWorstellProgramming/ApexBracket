@@ -1,5 +1,7 @@
 ML Model To Predict Future Apex Legends Brackets
 
+Data Source : https://liquipedia.net/apexlegends/Apex_Legends_Global_Series/2023/Split_1/Playoffs/Statistics
+
 Required Installations
 
 pip install pandas
