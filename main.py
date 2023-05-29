@@ -31,7 +31,7 @@ model = keras.Sequential([
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-model.fit(X_train, y_train, epochs=10, batch_size=4)
+model.fit(X_train, y_train, epochs=5, batch_size=1)
 
 # Step 5: Evaluate the model
 loss, accuracy = model.evaluate(X_test, y_test)
