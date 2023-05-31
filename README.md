@@ -26,3 +26,29 @@ pip install scikit-learn
 
 
 To Scrape |$ ./htmlScrape.py
+
+
+
+Results:
+
+Neural Network:
+    Test Loss: -8155.3427734375
+    Test Accuracy: 0.0
+
+Data Tree Model:
+    Test Accuracy: 0.06428571428571428
+
+Random Forest Model:
+    Test Accuracy: 0.014285714285714285
+
+Support Vector Machines Model:
+    Test Accuracy: 0.0
+
+Naive Bayes Model:
+    Test Accuracy: 0.0
+
+K-nearest Neighbors Model:
+    Test Accuracy: 0.0
+
+
+Conclusion | The 2100.csv Dataset has too many missing values. We need to re-evaluate our datapoints.
