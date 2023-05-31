@@ -22,5 +22,7 @@ pip install requests
 pip install tensorflow
 pip install keras
 pip install aiohttp
+pip install scikit-learn
+
 
 To Scrape |$ ./htmlScrape.py

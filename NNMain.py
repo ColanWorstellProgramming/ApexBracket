@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 #Import Dataset as ds
-ds = pd.read_csv('1000.csv')
+ds = pd.read_csv('2100.csv')
 ds.drop('Player', axis=1, inplace=True)
 
 train_ds = ds.sample(frac=0.8, random_state=42)  # 80% for training
