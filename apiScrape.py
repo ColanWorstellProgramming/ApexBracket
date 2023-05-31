@@ -2,7 +2,7 @@
 import requests
 
 base_url = "https://public-api.tracker.gg/v2/apex/"
-endpoint = "leaderboards/legend/{platform}/{legend}"
+endpoint = "leaderboards/legend/{platform}/{legend}?limit=10000"
 platform = "steam"
 legend = "pathfinder"
 api_key = "ed26b035-5bb8-4d15-9733-7e607c3848df"
