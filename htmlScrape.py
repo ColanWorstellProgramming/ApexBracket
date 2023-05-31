@@ -17,7 +17,7 @@ urls = {
 }
 
 country = "us"
-pages = 100
+pages = 1000
 output_file = "10k.csv"
 request_delay = 2  # Delay between requests in seconds
 requests_per_interval = 30  # Number of requests per interval
