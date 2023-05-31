@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 #Import Dataset as ds
-ds = pd.read_csv('html.csv')
+ds = pd.read_csv('1000.csv')
 ds.drop('Player', axis=1, inplace=True)
 
 train_ds = ds.sample(frac=0.8, random_state=42)  # 80% for training
@@ -22,7 +22,7 @@ y_train = y_train.astype('float32')
 
 # Step 4: Build and train the model
 model = keras.Sequential([
-    keras.layers.Dense(32, activation='relu', input_shape=(3,)),
+    keras.layers.Dense(32, activation='relu', input_shape=(10,)),
     keras.layers.Dense(16, activation='relu'),
     keras.layers.Dense(1, activation='sigmoid')
 ])
