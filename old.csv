@@ -1,4 +1,4 @@
-Ranking,TeamName,LP,Matches,Overall,TotalPoints,TotalKills,AvgPK,Placement,AvgKills,AvgPoints,FirstPlace,SecondPlace,ThirdPlace,Top5,Top10
+Rank,TeamName,LP,Matches,Overall,TotalPoints,TotalKills,AvgPK,Placement,AvgKills,AvgPoints,FirstPlace,SecondPlace,ThirdPlace,Top5,Top10
 1.0,XSET,307,32,237,102,135,43:57,9.03,4.22,7.41,2,1,3,9,21
 2.0,NRG,293,32,283,124,159,44:56,8.53,4.97,8.84,3,3,2,12,20
 3.0,TSM,271,32,268,114,154,43:57,8.84,4.81,8.38,2,4,1,12,17

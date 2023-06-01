@@ -7,8 +7,21 @@ from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 
 # Import Dataset as ds
-ds = pd.read_csv('2100.csv')
-ds.drop('Player', axis=1, inplace=True)
+ds = pd.read_csv('old.csv')
+ds.drop('TeamName', axis=1, inplace=True)
+ds.drop('AvgPK', axis=1, inplace=True)
+ds.drop('Overall', axis=1, inplace=True)
+ds.drop('TotalPoints', axis=1, inplace=True)
+ds.drop('AvgPoints', axis=1, inplace=True)
+ds.drop('FirstPlace', axis=1, inplace=True)
+ds.drop('SecondPlace', axis=1, inplace=True)
+ds.drop('ThirdPlace', axis=1, inplace=True)
+ds.drop('Top5', axis=1, inplace=True)
+ds.drop('Top10', axis=1, inplace=True)
+ds.drop('TotalKills', axis=1, inplace=True)
+ds.drop('Matches', axis=1, inplace=True)
+ds.drop('Placement', axis=1, inplace=True)
+ds.drop('AvgKills', axis=1, inplace=True)
 
 train_ds = ds.sample(frac=0.8, random_state=42)  # 80% for training
 test_ds = ds.drop(train_ds.index)  # Remaining 20% for testing
